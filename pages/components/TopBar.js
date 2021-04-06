@@ -5,6 +5,6 @@ export default class Topbar {
 	}
 
 	async clickSignInButton() {
-		await page.click('#sigin_button')
+		await page.click('#signin_button')
 	}
 }
