@@ -2,7 +2,7 @@ import BasePage from './BasePage'
 
 export default class FeedbackPage extends BasePage {
 	async visit() {
-		await page.goto('http://zero.webappsecurity.com/index.html')
+		await page.goto('http://zero.webappsecurity.com/feedback.html')
 	}
 
 	async isFeedbackFormDisplayed() {
